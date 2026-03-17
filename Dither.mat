@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dither
+  m_Shader: {fileID: 4800000, guid: 1a35614e949153b4890014c5f16037ce, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 618573423eed26745a99f434a5a942eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DarkThreshold: 0.32
+    - _DitherScaleParam: 1
+    - _Glossiness: 0.5
+    - _LightThreshold: 0.349
+    - _Metallic: 0
+    - _PixelCount: 900
+    - _ScaleParam: 1
+    - _ScanLineAngle: 5.81
+    - _ScanLineOffset: 5
+    - _Threshold: 0.15
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DarkColor: {r: 0.17621918, g: 0.24489956, b: 0.6226413, a: 1}
+    - _LightColor: {r: 0.8745098, g: 0.533072, b: 0.24313724, a: 1}
+    - _MiddleColor: {r: 0.6273583, g: 0.41725242, b: 0.5881386, a: 1}
+  m_BuildTextureStacks: []
